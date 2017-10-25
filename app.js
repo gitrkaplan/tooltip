@@ -10,11 +10,11 @@ MongoClient.connect(url, (err, db) => {
   app.use(express.static('./public'))
   const tips = db.collection('tips')
 
-  app.get('/tooltips/tips', (req, res) => {
+  app.get('/tooltip/tips', (req, res) => {
     tips
       .find({})
       .toArray()
-      .then(tips => tips.json())
+      .then(tips => res.json(tips))
       .catch(err => {
         console.error(err)
         res.sendStatus(500)
