@@ -1,0 +1,68 @@
+html,
+body {
+  margin: 0;
+  font-size: 10px;
+}
+
+.button {
+  font-size: 1.5rem;
+  font-family: 'Work Sans', sans-serif;
+  text-align: center;
+  background-color: #574ae2;
+  border-radius: 30px;
+  color: #ffffff;
+  display: block;
+  padding: 15px 30px;
+  text-decoration: none;
+  -webkit-transition: all 200ms ease-out;
+  -moz-transition: all 200ms ease-out;
+  -ms-transition: all 200ms ease-out;
+  transition: all 200ms ease-out;
+  -webkit-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  -moz-box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.3);
+}
+.button:hover {
+  background-color: #4d42c9;
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
+  -webkit-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.1);
+}
+.button:active {
+  background-color: #574ae2;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+#top-left {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+#top-right {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+#bottom-left {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
+
+#bottom-right {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
