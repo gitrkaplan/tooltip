@@ -3,19 +3,19 @@ A simple tooltip for users who want to display a tooltip based on positioning of
 
 ## Usage
 
-$ mongod
+```$ mongod
 $ npm install
 $ npm run seed
-$ npm run start
+$ npm run start```
 
 ## Uses
 
-HTML5
-CSS3
-Javascript(ES2015+)
-Node.js
-Express.js
-MongoDB
+- HTML5
+- CSS3
+- Javascript(ES2015+)
+- Node.js
+- Express.js
+- MongoDB
 
 
 ## Screen Capture
