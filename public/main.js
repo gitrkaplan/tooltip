@@ -14,7 +14,6 @@ const randTooltip = array => {
 buttons.forEach(el => {
   el.addEventListener('mouseover', event => {
     const { top, bottom, left, right } = el.getBoundingClientRect()
-    console.log(top, bottom, left, right)
     let tipText = el.getElementsByClassName('tooltiptext')
     tooltips().then(result => (tipText[0].innerHTML = result))
     if (window.innerHeight - bottom > 40 && window.innerWidth - right > 120) {
